@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Readit</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    
+    <header>
+      <button id="show-modal">+</button>
+      <input type="text", placeholder="Search", id="search"/>
+    </header>
+
+    <main>
+      <p id="no-items">NO item</p>
+      <div id="items">
+          
+      </div>
+    </main>
+
+    <div id="modal">
+      <input type="text" id="url", placeholder="enter URL">
+      <button id="add-item">Add item</button>
+      <button id="close-modal">cancel</button>
+    </div>
+
+    <script>
+      require('./app')
+      require('./menu')
+    </script>
+  </body>
+</html>
